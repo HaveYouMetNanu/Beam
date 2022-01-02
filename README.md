@@ -2,6 +2,7 @@
 * Postgres SQL <br />
 * Python 3 <br />
 * Java 8 <br />
+* Maven
 
 # Steps to setup complete environment for execution 
 * Run Beam/db_script.sql <br />
