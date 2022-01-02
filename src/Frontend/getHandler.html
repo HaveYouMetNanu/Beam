@@ -1,0 +1,26 @@
+<form id="latlonform">
+    <div class="form-group">
+        <label for="latitude">Latitude</label>
+        <input type="number" class="form-control" id="latitude" placeholder="Latitude">
+        <br/> <br/>
+        <label for="longitude">Longitude</label>
+        <input type="number" class="form-control" id="longitude" placeholder="Longitude">
+        <br/> <br/>
+        <label for="radius">Radius</label>
+        <input type="number" class="form-control" id="radius" placeholder="Radius">
+    </div>
+    <br/>
+    <button id="fetch" type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<table id="myTable" style="width:100%" align="center" border="1">
+    <thead>
+    <tr>
+        <th>latitude</th>
+        <th>longitude</th>
+    </tr>
+    </thead>
+    <tbody id="testBody"></tbody>
+</table>
+
+<script src="getLocations.js"></script>
